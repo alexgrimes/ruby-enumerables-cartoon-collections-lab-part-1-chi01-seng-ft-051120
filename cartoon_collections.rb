@@ -13,8 +13,7 @@ def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
-  array.each_with_index do |element|
-  puts "{i + 1}. #{element}"
+  array.each_with_index
+  #puts "{i + 1}. #{element}"
 end
 
-array.each_index {|element| print element, "#{index + 1}." }
