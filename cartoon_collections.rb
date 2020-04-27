@@ -1,7 +1,7 @@
 require "pry"
 def greet_characters(array)
   array.each do |greeting_name|
-    puts "Hello {#greet_characters.capitalize}!"
+    puts "Hello {#array.capitalize}!"
 end 
   
   # Use `each` to enumerate over the provided array
